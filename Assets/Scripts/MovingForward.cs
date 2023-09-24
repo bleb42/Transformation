@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-[RequireComponent(typeof(Transform))]
 public class MovingForward : MonoBehaviour
 {
     [SerializeField] private float _speed;
